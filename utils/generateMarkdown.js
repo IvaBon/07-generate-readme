@@ -8,6 +8,7 @@
 
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
+// this functions reads what type of lincense the user wants and returns the correct badge
 function renderLicenseSection(data) {
   const licenseBadge= data.license;
   let pushBadge=' ';
