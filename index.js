@@ -5,6 +5,7 @@ const { default: Choice } = require('inquirer/lib/objects/choice');
 const generateMarkdown=require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
+//propmt to ask questions for what user wants in readme file
 inquirer
     .prompt([
     {
