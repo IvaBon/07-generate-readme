@@ -3,6 +3,7 @@ const fs=require('fs');
 const inquirer=require('inquirer');
 const { default: Choice } = require('inquirer/lib/objects/choice');
 const generateMarkdown=require('./utils/generateMarkdown')
+
 // TODO: Create an array of questions for user input
 inquirer
     .prompt([
@@ -40,7 +41,7 @@ inquirer
         type:'list',
         name:'license',
         message:'Choose lincense',
-        choices:['MIT','APACHE 2.0','GPL 3.0','BSD 3','None'],
+        choices:['MIT','APACHE 2.0','GPL 3.0','None'],
     },
     {
         type:'input',
