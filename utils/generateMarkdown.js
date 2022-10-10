@@ -27,12 +27,12 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseSection(data)}
 ## Description
-  ${data.contribution}
+  ${data.description}
 ## Table of Contents
+-[Description](#description)
 -[Installation](#installation)
 -[Usage](#usage)
--[License](#license)
--[Contribution](#contrubution)
+-[Contribution](#contribution)
 -[Tests](#tests)
 -[Contact](#contact)
 
